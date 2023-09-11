@@ -1,0 +1,59 @@
+.icon {
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+
+#container {
+  border: 1px solid black;
+  width: 1228px;
+  height: 661px;
+  margin: auto; 
+  margin-top: 100px;
+  background: #FAFAFA;
+  border-radius: 10px;
+
+}
+
+#header {
+  width: 1228px;
+  height: 119px;
+  border-radius: 10px;
+  background: #B3C2C6;
+}
+
+#resume {
+  width: 312px;
+  height: 457px;
+  border-radius: 15px;
+  background: #B3C2C6;
+  margin-top: 20px;
+  margin-left: 80%;
+  display: flex;
+
+}
+
+table {
+width: 70%;
+border-collapse: collapse;
+}
+tr{
+  border-bottom: 3px solid #ccc;
+}
+
+
+th {
+  text-align: left;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  color:#2C3E50;
+
+}
+
+.product {
+  
+ font-size: 15px;
+
+}

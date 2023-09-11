@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho</title>
+
+    <link rel="stylesheet" href="css/background.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/carrinho.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><img src="./assets/logo.svg" alt="Logo" /></div>
+
+        <div class="menu-btn">
+          <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+        </div>
+
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="#">Produtos</a></li>
+          <li>
+            <a
+              href="carrinho.html"
+              class="fa fa-cart-shopping fa-1.5x"
+              onclick="menuShow()"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="form.html"
+              class="fa fa-user fa-1.5x"
+              onclick="menuShow()"
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <script
+        src="https://kit.fontawesome.com/a045373070.js"
+        crossorigin="anonymous"
+      ></script>
+      <script src="nav.js"></script>
+    </header>
+    <main>
+      <div id="container">
+        <div id="header">
+          <h2>Carrinho</h2>
+        </div>
+        <div id="content">
+          <section>
+            <table>
+              <thead>
+                <tr>
+                  <th>Produto</th>
+                  <th>Decrição</th>
+                  <th>Preço</th>
+                  <th>-</th>
+                </tr>
+              </thead>
+              <tbody>
+                <td>
+                  <div class="product">
+                    <img src="./assets/bancodedados.png" alt="bancodados" />
+                    <div class="info">
+                      <div class="name">Nome do produto</div>
+                    </div>
+                  </div>
+                </td>
+                <td>balalajodhosh</td>
+                <td>R$ 150</td>
+                <td>
+                  <button>
+                    <span class="material-symbols-outlined"> cancel </span>
+                  </button>
+                </td>
+              </tbody>
+            </table>
+          </section>
+        </div>
+        <div id="resume">
+          <h2>resumo</h2>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
